@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unified Gallery</title>
+  <meta name="description" content="One Android gallery for your phone and all your Google accounts, with the free Drive storage of every account pooled into one backup space.">
+  <style>
+    :root { --bg:#f7f8ff; --fg:#1a1b26; --muted:#5a5d72; --accent:#3448c4; --card:#fff; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#111218; --fg:#e6e7f2; --muted:#a3a6bd; --accent:#b8c3ff; --card:#1b1c24; } }
+    * { box-sizing: border-box; }
+    body { margin:0; font:16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg); color:var(--fg); }
+    main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+    header { display:flex; align-items:center; gap:16px; }
+    header img { width:64px; height:64px; border-radius:18px; }
+    h1 { font-size: 2rem; margin: 0; }
+    .lead { font-size: 1.15rem; color: var(--muted); }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:12px; margin: 28px 0; }
+    .card { background: var(--card); border-radius: 20px; padding: 18px; }
+    .card h3 { margin: 0 0 4px; font-size: 1rem; }
+    .card p { margin: 0; color: var(--muted); font-size: .95rem; }
+    a { color: var(--accent); }
+    footer { margin-top: 40px; color: var(--muted); font-size: .9rem; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <h1>Unified Gallery</h1>
+  </header>
+  <p class="lead">One gallery for the photos on your phone and in all your Google accounts. Each
+    account's free Google Drive storage joins one pool, and the photos and videos you choose are backed up
+    to whichever account has the most space.</p>
+
+  <div class="grid">
+    <div class="card"><h3>One storage pool</h3><p>Add several Google accounts; their free space adds up.</p></div>
+    <div class="card"><h3>You choose what's backed up</h3><p>Pick folders or single items. Nothing uploads unless you select it.</p></div>
+    <div class="card"><h3>Everything in one place</h3><p>Phone and Drive photos together, with albums, favourites and search.</p></div>
+    <div class="card"><h3>Private by design</h3><p>No servers of ours. Files go straight between your phone and your Google Drive.</p></div>
+  </div>
+
+  <p>Unified Gallery is a personal Android app shared with friends as an APK. It uses the Google Drive API
+    only to show, back up and manage files in the Drive of the accounts you add.</p>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a>
+  </footer>
+</main>
+</body>
+</html>
