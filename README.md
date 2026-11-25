@@ -16,6 +16,15 @@
 
 ---
 
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/photos.png" width="200" alt="Photos timeline with backup filters">
+  <img src="screenshots/albums.png" width="200" alt="Albums: favourites, trash, locked folder, duplicates and phone folders">
+  <img src="screenshots/viewer.png" width="200" alt="Photo viewer with share, back up, edit, info and delete">
+  <img src="screenshots/storage.png" width="200" alt="Storage pool: free space of every Google account added together">
+</p>
+
 ## What it does
 
 - **One storage pool** — add several Google accounts; their free space adds up, and each new
